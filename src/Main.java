@@ -39,12 +39,12 @@ public class Main {
         int bank = 29000;
         int percent = 0;
         for (int i = 1; i <= 12; i++) {
-            percent = percent + percent / 100;
             percent = percent + bank;
+            percent = percent + percent / 100;
             System.out.println("Месяц " + i + " сумма накоплений равна " + percent);
         }
         System.out.println("Задача 10");
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 0; i <= 10; i ++) {
             System.out.println("2 * " + i + " = " + i * 2);
         }
 
